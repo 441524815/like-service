@@ -1,1 +1,11 @@
+  
+#数据库连接串   &密码
+mariadb:
+   url: 'jdbc:mysql://47.104.96.77:3306/xiaochengxu?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true'
+   password: '{cipher}b1551f1f9ecba44df8cb498151c2ed3330e4e32527071cb43d0f3284ebff88a5178f3263396e689da1d8cb5d29ab174c'
+   username: '{cipher}f2d1e5689f7f335e3ff0d9b917136083a8ce65ac1b58af17c5c266c646891f7e'
 
+##功能开关-开启/关闭功能
+userservice:
+   registration:
+      disabled: true
